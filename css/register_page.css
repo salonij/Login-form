@@ -1,0 +1,75 @@
+.background_img{
+	background-image: url("../img/signup-bg.jpg");
+    background-repeat: no-repeat;
+	width : 100%;
+	min-height:100vh;}
+
+.form-container{
+	padding:40px 60px 30px 60px;}
+
+label{
+	font-weight: 700;}
+
+.error{
+	color:red;
+	font-weight:200;
+	}
+
+.set_background{
+	background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5));
+	}
+
+.set_shadow{
+	border:1px solid;
+	margin-top:12vh;
+	-webkit-box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);}
+
+.form-control{
+	height:30px !important;}
+
+.form-group{
+	margin-bottom:0px !important;}
+
+.createacc_btn{
+	margin-top:20px;}
+
+.signup-title{
+	text-align:center;
+	padding-bottom:5px;}
+
+.alreadyaccount{
+	position:absolute;
+	top: 40%;
+}
+
+.alreadyacc-title{
+	text-align:center;
+	color:#fff;}
+
+.btn-default{
+	background:#33cccc !important;
+	color: #fff;
+	border-radius:40px !important;}
+
+.btn-position{
+	text-align: center;
+}
+.btn-default:hover {
+  background: #fff !important;
+}
+
+@media only screen and (max-width:600px){
+	.alreadyaccount{
+		position:revert;
+	}
+}
+
+@media (min-width:600px) and (max-width:1200px){
+	.form-container{
+		padding:1rem;
+	}
+}

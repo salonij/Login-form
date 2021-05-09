@@ -1,0 +1,30 @@
+.background_img{
+	background-image: url("../img/signup-bg.jpg");
+    background-repeat: no-repeat;
+	width : 100%;
+	min-height:100vh;}
+	
+.form-container{
+	padding:50px 60px;}
+	
+label{
+	font-weight: 700;}
+	
+.error{
+	color:red;
+	font-weight:200;
+	}
+	
+.set_shadow{
+	border:1px solid;
+	margin-top:20vh;
+	-webkit-box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 26px 10px rgba(0,0,0,0.75);}
+	
+.login-img{
+	width:50px !important;
+	height:50px !important;
+	border-radius:50%;}
+	
+	
